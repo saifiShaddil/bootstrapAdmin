@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>Admin Template</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+
+  <link href="css/resume.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/admin.css">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Admin Only</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/web1.jpg" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#admin">Admin Details</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#account_setting">Admin Account Settings</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#user_details">Users Details</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-2 p-lg-5 d-flex flex-column align-items-center" id="admin">
+      <div class="w-100">
+        <h1 class="mb-0">Your Admin
+          <span class="text-primary">Panel</span>
+        </h1>
+      </div>
+      <div class="conatiner d-flex p-3 detail">
+        <h3>Details of Admin</h3>
+      </div>
+
+      <main class="admin-details m-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="card">
+                <img class="card-img-top" src="/img/markus-spiske-MI9-PY5cyNs-unsplash.jpg" alt="img">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="container description d-flex flex-column text-center">
+                <h5 class="p-2">Shaddil Saifi</h5>
+                <p class ="p-1">Web Developer</p>
+                <div>Contact: <strong>shadilsaifi66@gmail.com</strong></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="account_setting">
+      <div class="w-100">
+        <h2 class="mb-5">Change Account Settings</h2>
+      <div class="conatiner">
+        <h5>Current Admin Name:  <strong>Shaddil Saifi</strong></h5>
+      </div>
+      <p class="lead">Fill out the details that you want to Change</p>
+      <form action="" method="post" class="m-2 w-70">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" class="form-control" aria-describedby="helpId">
+        </div>
+        <div class="form-group">
+          <label for="username">New Username</label>
+          <input type="text" name="username" class="form-control" aria-describedby="helpId">
+        </div>
+        <div class="form-group">
+          <label for="password">New Password</label>
+          <input type="text" name="password" class="form-control" aria-describedby="helpId">
+        </div>
+        <div class="form-group">
+          <label for="cf-password">Confirm Password</label>
+          <input type="text" name="cf-password" class="form-control" aria-describedby="helpId">
+        </div>
+        <button type="submit" class="btn btn-success btn-md">Submit</button>
+      </form>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="user_details">
+      <div class="w-100">
+        <h2 class="mb-2"> Users</h2>
+        <p class="lead">All Active Users</p>
+        <div class="container">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>UserName</th>
+                <th>Email</th>
+                <th>Role</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td scope="row">1</td>
+                <td>Shaddil Saifi</td>
+                <td>shadilsaifi66@gmail.com</td>
+                <td>Web Developer</td>
+              </tr>
+              <tr>
+                <td scope="row">2</td>
+                <td>Rohit Kumar</td>
+                <td>rohitk@gmail.com</td>
+                <td>Maintainence</td>
+              </tr>
+              <tr>
+                <td scope="row">3</td>
+                <td>Abhay Singh</td>
+                <td>absingh777@gmail.com</td>
+                <td>Designer</td>
+              </tr>
+              <tr>
+                <td scope="row">4</td>
+                <td>Elina Shaw</td>
+                <td>alinashaw1@gmail.com</td>
+                <td>Marketing</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+
+  
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/resume.min.js"></script>
+
+</body>
+
+</html>

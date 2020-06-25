@@ -1,0 +1,14 @@
+#admin h1 {
+    font-size: 70px;
+    text-align: center;
+}
+.admin-details .card {
+    width: 350px;
+    margin-top: 15px;
+    padding: 2px 2px;
+}
+.admin-details .description {
+    padding: 10px 20px;
+    margin: 35px auto auto 35px ;
+}
+
